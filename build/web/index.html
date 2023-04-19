@@ -1,18 +1,59 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
--->
 <html>
     <head>
-        <title>Сайта на 12в клас</title>
-        <meta charset="UTF-8">
+        <title>Автомобили</title>
+        <link rel="icon" type="image/png" href="favicon.png">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/bretan" type="text/css"/>
+        <link rel="stylesheet" href="picnic.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <form method="get" action="LoginServlet">
-            <input type="text" name="user">
-            <input type="password" name="pass">
-            <input type="submit">
-        </form>
+        <nav>
+            <a href="index.html" class="brand">
+                <img class="logo" src="favicon.png" />
+                <span>Авто</span>
+            </a>
+            <input id="menu" type="checkbox" class="show">
+            <label for="menu" class="burger pseudo button">меню</label>
+
+            <div class="menu">
+                <a href="istoriq.html" class=" pseudo  button icon-picture">История</a>
+                <a href="ustroistvo.html" class=" pseudo  button icon-puzzle">Устройство</a>
+                <a href="vidove.html" class=" pseudo  button icon-puzzle">Видове</a>
+            </div>
+        </nav>
+        <div class="flex center">
+            <!-- Това е коментар и няма да се вижда в браузъра -->
+            <h1 class="full">Автомобили</h1>
+            qwer
+<p class="full half-500 two-third-900">Автомобил (на старогръцки: αὐτο – сам, самостоятелно и на латински: mobilis – движещ се), разговорно се използва кола, е моторно превозно средство (МПС) с повече от две колела или гуми, обикновено четири (тоест безрелсово), предназначено за транспорт, придвижване, както и превозване на пътници и багаж; също понякога и товари (при лекотоварните автомобили или бусове). Автомобилите се разделят на няколко основни групи: леки автомобили (за превозване на хора, обикновено 4 до 9 души) и лекотоварни автомобили; други типове са автобуси (за превозване на повече хора) и камиони (за превозване на товари), също тирове, както и специални автомобили (с монтирано специализирано оборудване, например такива за инвалиди, автокранове или пожарни коли).</p>
+
+<div class="full half-500 third-900">
+    <article class="card">
+        <img src="avtomobili.jpg">
+    </article>
+</div>
+
+<div class="one half-500">
+    <article class="card">
+        <video controls>
+            <source src="https://upload.wikimedia.org/wikipedia/commons/7/73/Once_Upon_a_Honeymoon_%281956%29.webm" type="video/webm">
+            Браузърът Ви не поддържа никой от форматите на това видео.
+        </video>
+    </article>
+</div>
+<div class="one half-500">
+    <article class="card">
+        <iframe src="https://www.youtube.com/embed/7a1cjbxTV6E"></iframe>
+    </article>
+
+    <article class="card">
+        <audio controls>
+            <source src="sparrow.mp3" type="audio/mpeg">
+        </audio>
+    </article>
+</div>
+
+        </div>
     </body>
 </html>

@@ -1,0 +1,27 @@
+body {
+	margin: 20px;
+	background-color:lightblue;
+	padding-top: 30px;
+}
+
+h1 {
+	color: green;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+   font-family: 'CovalRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+
+.card > * {
+	width: 100%;
+	height: auto;
+}
+
+nav {
+	position: absolute;
+	background-color: #999999;
+}
